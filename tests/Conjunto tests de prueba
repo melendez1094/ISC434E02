@@ -1,0 +1,24 @@
+Para probar la clase MyTime, diseñamos el siguiente conjunto de tests:
+
+Leyenda:
+H1 = hora primer timestamp
+H2 = hora segundo timestamp
+M1 = minuto primer timestamp
+M2 = minuto segundo timestamp
+
+Conjunto de tests:
+H1 = H2, M1 = M2
+H1 = H2, M1 < M2
+H1 = H2, M1 > M2
+
+H1 > H2, M1 = M2
+H1 > H2, M1 > M2
+H1 > H2, M1 < M2
+
+H1 < H2, M1 = M2
+H1 < H2, M1 > M2
+H1 < H2, M1 < M2
+
+Este suite de pruebas es completo ya que se prueban todas las posibles combinaciones
+de horas y minutos que corresponden a todas las posibles timestamps que puede
+ser usados como inputs por parte de un usuario.
